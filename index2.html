@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Anatomia de ua pagina HTML5</h1>
+        <p>Parte 2: Formulários e Texto</p>
+        <nav>
+            <a href="index.html">⬅️Voltar para Parte 1</a>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="card">
+            <h2>Aprofundando o Conhecimento</h2>
+            <p>Nessa segunda parte, exploramos tags essenciais para a interatividade (formulários) e para dar um significado ainda mais rico ao conteúdo textual.</p>
+        </div>
+        <section class="EstruturaParte2">
+            <h3>Formulários Interativos: Coletando Dados</h3>
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label for="Nome">Nome Completo</label>
+                <input type="text" placeholder="Ex: Ana Silva" required>
+                <label for="DatadeNascimento">Data de Nascimento</label>
+                <input type="date">
+                <input type="text" placeholder="Curso de Interesse (com autocomplementar): ">
+            </fieldset>
+
+            <fieldset class="preferencias">
+
+                <legend>Preferencias</legend>
+                <label for="area">Área de Foco(com lista dropdown)</label>
+                <select name="opcao" id="opcao">Selecione uma opção</select>
+                <label for="nivel">Nível de Experiência</label>
+
+
+                <input type="radio">
+                <label for="Iniciante">Iniciante</label>
+                <input type="radio">
+                <label for="Intermediario">Intermediário</label>
+                <input type="radio">
+                <label for="Avançado">Avançado</label>
+
+                 </fieldset>
+
+
+                <div class="highlight">
+                    <aside>
+                    <p>O formulário agora combina múltiplos elementos <code>&lt;datalist&gt;</code> para autocompletar, e <code>&lt;select&gt;</code> para uma lista fechada de opções.</p>
+
+                    <p>Para escolhas, usamos <code>&lt; input type="radio"&gt;</code> (escolha única) e <code>&lt;input type="checkbox"&gt;</code> (múltipla escolha).</p>
+
+                    <p>A tag <code>&lt;output&gt;</code> exibe dinemicamente o valor do <code>&lt;input type="range"&gt;</code>, criando uma experiência interativa.</p>
+
+                    <p>Note também os atribuidos <code>&lt;placeholder&gt;</code>, que exibe um texto de ajuda no campo, e <code>&lt;required&gt;</code>, que torna seu preenchimento obrigatório.</p>
+                    </aside>
+                </div>
+
+            
+        </section>
+    </main>
+    
+</body>
+</html>

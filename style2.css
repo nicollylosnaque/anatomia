@@ -1,0 +1,60 @@
+body{
+font-family: 'Inter', sans-serif;
+background-color: #f3f4f6;
+color: black;
+margin: 0;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+color: rgb(0, 166, 3);
+}
+header .titulo{
+    background-color: #ffff;
+    top: 0;
+    z-index: 10;
+}
+
+header{
+    background-color: #fff;
+    box-shadow: 0 1px 3px o rgba(0, 0,0, 0.1), 0 1px 2px 0 rgba(0, 0,0, 0.06);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0,0, 0.1), 0 2px 4px -1px rgba(0, 0,0, 0.06);
+    margin-bottom: 3rem;
+}
+
+.highlight{
+    border-radius: 8px;
+    background-color: rgb(185, 230, 185);
+}
+
+header nav a {
+    color: #4b5563;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin: 0 0.5rem;
+}
+
+  
+
+
+
